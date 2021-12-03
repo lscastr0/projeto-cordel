@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --cor-header: #904630;
+    --new-yellow: #FDDF57;
+    --new-gray: #DBDAD8;
+    --new-red: #BB2020;
+    --new-black: #06111C;
+    --new-white: #FDF7EE;
+    --font-passion: 'Passion One', cursive, sans-serif;
+    --font-sriracha: 'Sriracha', cursive, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: linear-gradient(to right, #D9C196, #E5D3AD, #F2E1C2);
+}
+header{
+    padding: 40px;
+    background-color: var(--new-black);
+    text-align: center;
+    color: var(--new-yellow);
+    font-family: var(--font-passion);
+}
+
+h1{
+    margin: 10px auto;
+    font-size: 50px;
+    letter-spacing: 2px;
+    
+}
+
+span{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+span a{
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+    word-spacing: initial;
+}
+
+span a:hover{
+    color: var(--new-red);
+    transition: 0.5s;
+}
+div{
+    padding: 30px;
+    border: 1px solid black;
+    height: 100%;
+   
+}
+
+p{
+    font-size: 18px;
+    padding: 10px;
+    line-height: 3em;
+    font-family: var(--font-sriracha);
+    letter-spacing: 1px;
+}
