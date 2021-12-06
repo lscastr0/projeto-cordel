@@ -4,7 +4,7 @@
 
 :root{
     --new-yellow: #FDDF57;
-    --new-red: #bb20207e;
+    --new-red: #bb2020;
     --new-black: #06111C;
     --new-white: #FDF7EE;
     --transparant-black: #06111cc4;
@@ -67,7 +67,10 @@ div{
 }
 
 div p{
-    padding-bottom: 2em
+    padding-bottom: 2em;
+    display: inline-block;
+    margin: 15px;
+    padding: 30px;
 }
 
 #img1 p, #img2 p{
@@ -81,12 +84,12 @@ div p{
 }
 
 #img1{
-    background: url(../img/background001.jpg) center center no-repeat fixed;
+    background: url(../img/background00.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 #img2{
-    background: url(../img/background002.jpg) no-repeat fixed;
+    background: url(../img/background00.jpg) no-repeat fixed;
     background-size: cover;
 }
 
