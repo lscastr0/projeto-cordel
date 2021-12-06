@@ -4,10 +4,10 @@
 
 :root{
     --new-yellow: #FDDF57;
-    --new-gray: #DBDAD8;
-    --new-red: #BB2020;
+    --new-red: #bb20207e;
     --new-black: #06111C;
     --new-white: #FDF7EE;
+    --transparant-black: #06111cc4;
     --font-passion: 'Passion One', cursive, sans-serif;
     --font-sriracha: 'Sriracha', cursive, sans-serif;
 }
@@ -56,15 +56,41 @@ span a:hover{
 }
 
 div{
-    border: 1px solid black;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-p{
-    font-size: 18px;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    font-size: 1.2em;
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--font-sriracha);
     letter-spacing: 1px;
+    background-attachment: fixed;
+}
+
+div p{
+    padding-bottom: 2em
+}
+
+#img1 p, #img2 p{
+    background-color: var(--transparant-black);
+    display: inline-block;
+    margin: 15px;
+    padding: 30px;
+    color: var(--new-white);
+    border-radius: 5px;
+    
+}
+
+#img1{
+    background: url(../img/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#img2{
+    background: url(../img/background002.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+footer{
+    text-align: center;
+    padding: 15px
 }
