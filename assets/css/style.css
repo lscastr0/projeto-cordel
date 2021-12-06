@@ -50,9 +50,10 @@ span a{
     word-spacing: initial;
 }
 
-span a:hover{
+a:hover{
     color: var(--new-red);
-    transition: 0.5s;
+    transition-duration: 0.5s;
+    text-decoration: underline;
 }
 
 div{
@@ -63,37 +64,43 @@ div{
     line-height: 2em;
     font-family: var(--font-sriracha);
     letter-spacing: 1px;
-    background-attachment: fixed;
+    box-shadow: inset 0px 0px 3px black;
+    
 }
 
 div p{
-    padding-bottom: 2em;
-    display: inline-block;
-    margin: 15px;
     padding: 30px;
+    padding-bottom: 2em;
 }
 
 #img1 p, #img2 p{
     background-color: var(--transparant-black);
     display: inline-block;
     margin: 15px;
-    padding: 30px;
     color: var(--new-white);
     border-radius: 5px;
-    
 }
 
 #img1{
-    background: url(../img/background00.jpg) center center no-repeat fixed;
+    background: url(../img/background001.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 #img2{
-    background: url(../img/background00.jpg) no-repeat fixed;
+    background: url(../img/background002.jpg) no-repeat fixed;
     background-size: cover;
 }
 
 footer{
     text-align: center;
-    padding: 15px
+    padding: 15px;
+    background-color: var(--new-black);
+    color: var(--new-white);
+    letter-spacing: 1px;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
 }
